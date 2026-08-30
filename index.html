@@ -1,300 +1,381 @@
 <!DOCTYPE html>
-
 <html lang="es">
-
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>LEVIATHAN MUSIC - ONE MAN BAND</title>
-	<meta name="description" content="Mike Leviatan es un artista independiente, músico y hombre orquesta de Metal y Rock, especializado en géneros extremos como el Black y Death Metal es estilos progresivo y técnicos, también abracando en ocasiones Rock y Metal Melódico entre varios estilos y géneros más.">
-	<meta name="keywords" content="mike leviathan, music, metal, black, death, extreme, technical, progressive, brutal, melodic, rock, musician, independent, artist, label, record, guitarrist, guitar player">
-<!--
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-	-->
-	<link rel="stylesheet" href="css/styles-merged.css">
-	<link rel="stylesheet" href="css/style.min.css">
-	<link rel="stylesheet" href="css/custom.css">
-
-	<!--[if lt IE 9]>
-	  <script src="js/vendor/html5shiv.min.js"></script>
-	  <script src="js/vendor/respond.min.js"></script>
-	<![endif]-->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIKE LEVIATHAN - LEVIATHAN / UMBRA / XUQUBUX</title>
+<meta name="description" content="One man band - Black Metal, Atmospheric, Graphic Art. The Ancestral Lands, Infaustus, Burning Cross">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.w3-display-topmiddle,.w3-display-bottommiddle{
+	background-color: rgba(0,0,0,0.75);
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	text-align: center;
+}
+.w3-display-topmiddle{ padding-bottom: 10px; }
+.w3-display-bottommiddle{ padding-top: 0px; }
+</style>
 </head>
+<body class="w3-black" id="top">
 
-<body>
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-card nav-dark" id="myNavbar">
+	<a class="w3-bar-item w3-button w3-padding-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Menu"><i class="fa fa-bars"></i></a>
+	<a href="index.html" class="w3-bar-item w3-button w3-padding-medium w3-large">MIKE LEVIATHAN</a>
+	<span class="w3-right w3-small" style="margin-top:4px;">
+	<a href="#news" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">INICIO</a>
+	<a href="#music" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">MUSICA</a>
+	<a href="#video" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">VIDEOS</a>
+	<a href="#photo" class="w3-bar-item w3-button w3-padding-medium w3-hide-small">GALERIA</a>
+	<a href="#contact" class="w3-bar-item w3-button w3-padding-medium w3-hide-small w3-hide-medium">CONTACTO</a>
+	</span>
+  </div>
+</div>
 
-	<!-- START: header -->
+<div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-top nav-dark" style="margin-top:46px">
+  <a href="#news" class="w3-bar-item w3-button" onclick="myFunction()">INICIO</a>
+  <a href="#music" class="w3-bar-item w3-button" onclick="myFunction()">MUSICA</a>
+  <a href="#video" class="w3-bar-item w3-button" onclick="myFunction()">VIDEOS</a>
+  <a href="#photo" class="w3-bar-item w3-button" onclick="myFunction()">GALERIA</a>
+  <a href="#contact" class="w3-bar-item w3-button" onclick="myFunction()">CONTACTO</a>
+</div>
 
-	<div class="probootstrap-loader"></div>
-
-	<header role="banner" class="probootstrap-header">
-		<div class="container">
-			<a href="index.html" class="probootstrap-logo">LEVIATHAN</a>
-
-			<a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
-			<div class="mobile-menu-overlay"></div>
-
-			<nav role="navigation" class="probootstrap-nav hidden-xs">
-				<ul class="probootstrap-main-nav">
-					<li><a href="music.html">Music</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-				<ul class="probootstrap-right-nav hidden-xs">
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter"></i></a></li>
-					<li><a href="#"><i class="icon-youtube"></i></a></li>
-				</ul>
-				<div class="extra-text visible-xs">
-					<a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
-					<ul class="social-buttons">
-						<li><a href="https://www.facebook.com/MikeLeviathan/"><i class="icon-facebook2"></i></a></li>
-						<li><a href="#"><i class="icon-instagram2"></i></a></li>
-						<li><a href="#"><i class="icon-twitter"></i></a></li>
-						<li><a href="#"><i class="icon-youtube"></i></a></li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-	</header>
-	<!-- END: header -->
-	<section class="probootstrap-slider flexslider">
-		<ul class="slides">
-			<li style="background-image: url(img/slider_1.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<div class="slides-text probootstrap-animate">
-								<h2>Music Projects</h2>
-								<p><a href="music.html" target="" class="btn btn-primary">Listen to my music</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li style="background-image: url(img/slider_2.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<div class="slides-text probootstrap-animate">
-								<h2>Who is Leviathan?</h2>
-								<p><a href="about.html" target="_blank" class="btn btn-primary">More than a musician</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-			<li style="background-image: url(img/slider_3.jpg);">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<div class="slides-text probootstrap-animate">
-								<h2>Do you need something?</h2>
-								<p><a href="services.html" target="_blank" class="btn btn-primary">Check all I can do (for you)</a></p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</li>
-		</ul>
-	</section>
-	<!-- END: slider  -->
-
-
-	<div class="probootstrap-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInLeft">
-
-					<div class="panel-group probootstrap-panel" id="accordion" role="tablist" aria-multiselectable="true">
-						<div class="panel panel-default">
-							<div class="panel-heading" role="tab" id="headingOne">
-								<h3 class="panel-title">
-									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-
-					Musician
-				  </a>
-								</h3>
-							</div>
-							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-								<div class="panel-body">
-									<p>Obviously, yuo're here for the music. I have several metal and rock projects, from simple and relax music to complec and chaotic sounds.</p>
-
-
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading" role="tab" id="headingTwo">
-								<h3 class="panel-title">
-									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-					Producer
-				  </a>
-								</h3>
-							</div>
-							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-								<div class="panel-body">
-									<p>More a need than a luxury. I wanted to materialize my music, but I was no abke to make it.  Was a arduous way to get the tools and knowledge to make my music a reality.</p>
-
-								</div>
-							</div>
-						</div>
-						<div class="panel panel-default">
-							<div class="panel-heading" role="tab" id="headingThree">
-								<h3 class="panel-title">
-									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					Graphic Designer
-				  </a>
-								</h3>
-							</div>
-							<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-								<div class="panel-body">
-									<p>Also, I must learn graphic design to build an indentity and give faces to my projects. That helped me to develop skills to create beautiful designs, webs and media.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- END panel-group -->
-				</div>
-				<div class="col-md-6 probootstrap-animate" data-animate-effect="fadeInRight">
-
-					<figure>
-						<div class="probootstrap-video">
-							<a href="https://vimeo.com/45830194" class="popup-vimeo probootstrap-video-play"><i class="icon-play3"></i></a>
-							<img src="img/slider_2.jpg" alt="Free HTML5 Bootstrap Template by uicookies.com" class="img-responsive img-border">
-						</div>
-						<figcaption><span style="font-weight: 900">LEVIATHAN:</span> <span style="font-style: italic; text-decoration: underline">The One-Man-Band</span> and much more.</figcaption>
-					</figure>
-
-				</div>
-			</div>
-		</div>
+<!-- Slideshow -->
+<div class="w3-content" style="max-width:2000px;">
+  <div class="back-dark">
+	<div class="mySlides w3-display-container w3-center w3-animate-opacity">
+		<img src="img/screen1.jpg" style="width:100%" alt="MIKE LEVIATHAN ONE MAN BAND" loading="lazy">
+		<div class="w3-display-bottommiddle w3-container w3-text-white legend"><h3>ONE MAN BAND</h3><a href="#music" class="w3-button w3-dark-grey">CHECK MY MUSIC PROJECTS</a></div>
 	</div>
-	<!-- END section -->
-
-
-	<!-- END section cta -->
-
-	<section class="probootstrap-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12 section-heading probootstrap-animate">
-					<h2>SOME MUSIC PROJECTS</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4 probootstrap-animate">
-					<div class="probootstrap-card">
-						<div class="probootstrap-card-media">
-							<a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-						</div>
-						<div class="probootstrap-card-text">
-							<h2 class="probootstrap-card-heading mb0">LEVIATHAN</h2>
-							<p class="category">Technical Brutal Death Metal</p>
-							<p>Dissonant, chaotic and obscure. This my main musical project where I try to push beyond my boundaries. I use low and aggressive gutturals, technical and obscure guitars and bass with drums that came for chaos.</p>
-							<p><a href="single-page.html">View details</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 probootstrap-animate">
-					<div class="probootstrap-card">
-						<div class="probootstrap-card-media">
-							<a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-						</div>
-						<div class="probootstrap-card-text">
-							<h2 class="probootstrap-card-heading mb0">XUQUBUX</h2>
-							<p class="category">Technical Melodic Black Metal</p>
-							<p>My very first project. Where I develop the basis of almost all my music and philosophy. It can sounds simple and melodic and also reach the deepest and darkest chaos while spits blasphemy and unlimited hatred. </p>
-
-
-
-
-
-							<p><a href="single-page.html">View details</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 probootstrap-animate">
-					<div class="probootstrap-card">
-						<div class="probootstrap-card-media">
-							<a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-						</div>
-						<div class="probootstrap-card-text">
-							<h2 class="probootstrap-card-heading mb0">UMBRA</h2>
-							<p class="category">Ambiental Depressive Black Metal</p>
-							<p>Immerse yourselves in the death throes of a hollow existece, in the profundity of despair and grief, hearing to bitter moanings in gloomy environments. Go through of solitaire and depressive passages up to your own funeral.</p>
-							<p><a href="single-page.html">View details</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- END section -->
-
-
-	<footer class="probootstrap-footer probootstrap-bg">
-		<div class="container">
-			<div class="row mb60">
-				<div class="col-md-6">
-					<div class="probootstrap-footer-widget">
-						<h4 class="heading">About Black.</h4>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-						<p><a href="#">Read more...</a></p>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="probootstrap-footer-widget probootstrap-link-wrap">
-						<h4 class="heading">Quick Links</h4>
-						<ul class="stack-link">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Products</a></li>
-							<li><a href="#">Testimonial</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="probootstrap-footer-widget">
-						<h4 class="heading">More Links</h4>
-						<ul class="stack-link">
-							<li><a href="#">Projects</a></li>
-							<li><a href="#">Privacy</a></li>
-							<li><a href="#">Terms</a></li>
-							<li><a href="#">Career</a></li>
-							<li><a href="#">Support Help</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-			<div class="row copyright">
-				<div class="col-md-6">
-					<div class="probootstrap-footer-widget">
-						<p>&copy; <span id="currentYear"></span><span id="rightNow"><span></span></span> <a href="#">LEVIATHAN</a>. Designed by <a href="#">ProDesign</a> | <a href="artffinity.eu.org">AffinityDesign</a> </p>
-						</div>
-				</div>
-				<div class="col-md-6">
-					<div class="probootstrap-footer-widget right">
-						<ul class="probootstrap-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-instagram2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-youtube"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</footer>
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-chevron-thin-up"></i></a>
+	<div class="mySlides w3-display-container w3-center w3-animate-opacity">
+		<img src="img/screen2.jpg" style="width:100%" alt="Graphic Art" loading="lazy">
+		<div class="w3-display-bottommiddle w3-container w3-text-white legend"><h3>GRAPHIC ART</h3><a href="#photo" class="w3-button w3-dark-grey">SEE MY ART</a></div>
 	</div>
-	<script src="js/scripts.min.js"></script>
-	<script src="js/main.min.js"></script>
-	<script src="js/custom.js"></script>
+	<div class="mySlides w3-display-container w3-center w3-animate-opacity">
+		<img src="img/screen3.jpg" style="width:100%" alt="Other Projects" loading="lazy">
+		<div class="w3-display-bottommiddle w3-container w3-text-white legend"><h3>OTHER PROJECTS</h3><a href="#more" class="w3-button w3-dark-grey">SEE MORE</a></div>
+	</div>
+  </div>
+</div>
+
+<!-- NEWS -->
+<div id="news" class="separator">
+<h1 class="w3-wide w3-center w3-dark-red">NOVEDADES</h1>
+<!-- tus 3 bloques de noticias igual, solo agrega loading="lazy" a las img -->
+<div class="w3-row-padding w3-margin-top w3-padding-8 w3-border-bottom w3-border-dark-red w3-border-bottom w3-border-dark-red">
+  <h2>LEVIATHAN - THE ANCESTRAL LANDS</h2>
+  <div class="w3-third">
+    <div class="w3-card w3-center">
+      <a href="#music01">
+      <img alt="" src="img/music/a3698328177_16.jpg" style="width:100%" loading="lazy">
+      <div class="w3-panel w3-dark-red">Ver m&aacute;s</div>
+      </a>
+    </div>
+  </div>
+  <div class="w3-twothird">
+    <div class="w3-card">
+      <div class="w3-container">
+        <p>He estado trabajando lentamente por dos a&ntilde;os en el proyecto de “LEVIATHAN”, y aunque he avanzado en el primer &aacute;lbum, he estado reconfigurando el proyecto y las canciones para que cada vez tengan mayor calidad tanto en el aspecto t&eacute;cnico, como en el aspecto musical y tecnol&oacute;gico.</p>
+        <br>
+        <p>Por el momento crear&eacute; un &aacute;lbum en el que har&eacute; versiones de algunas bandas que son mis grandes influencias y a las que quiero hacer un peque&ntilde;o tributo, bandas como Sepultura, Sarc&oacute;fago, Tenebrarum, Parabellum, Bathory, Behemoth, Rapture, Possesed entre otros.</p>
+        <br>
+        <p>Este &aacute;lbum aún no est&aacute; completo, pero conforme vaya terminando las pistas, las estar&eacute; agregando, ser&aacute;n un total de 8 canciones, tal vez m&aacute;s, pero no lo creo.</p>
+        <br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-margin-top w3-padding-8 w3-border-bottom w3-border-dark-red w3-border-bottom w3-border-dark-red">
+  <h2>UMBRA - INFAUSTUS</h2>
+  <div class="w3-third">
+    <div class="w3-card w3-center">
+      <a href="#music02">
+      <img alt="" src="img/music/a0175236747_16.jpg" style="width:100%" loading="lazy">
+      <div class="w3-panel w3-dark-red">Ver m&aacute;s</div>
+      </a>
+    </div>
+  </div>
+  <div class="w3-twothird">
+    <div class="w3-card">
+      <div class="w3-container">
+        <p>Aunque ya es un proyecto viejo (creado en el 2012), no he dejado de trabajar en esta mezcla de Black Metal Atmosf&eacute;rico, Ambiental y Depresivo, aunque podr&iacute;a parecer una etiquete pretenciosa, habr&iacute;a que escucharlo detenidamente para comprenderlo.</p>
+        <br>
+        <p>He trabajado ya en algunas canciones y un par de covers para este proyecto, adem&aacute;s del redise&ntilde;o del logotipo y en la idea de sacar una versi&oacute;n instrumental en cada &aacute;lbum.</p>
+        <br>
+        <p>Adem&aacute;s de haber terminado varias l&iacute;ricas y pistas que dar&aacute;n fruto a varias canciones nuevas que estar&eacute; grabando en mis tiempos libres.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row-padding w3-margin-top w3-padding-8 w3-border-bottom w3-border-dark-red w3-border-bottom w3-border-dark-red">
+  <h2>EL RENACIMIENTO DE UN VIEJO PROYECTO</h2>
+  <div class="w3-third">
+    <div class="w3-card w3-center">
+    <a href="#">
+      <img alt="" src="img/music/a0175236747_00.jpg" style="width:100%" loading="lazy">
+      <div class="w3-panel w3-dark-red">Ver m&aacute;s</div>
+    </a>
+    </div>
+  </div>
+  <div class="w3-twothird">
+    <div class="w3-card">
+      <div class="w3-container">
+        <p>Por el momento el proyecto de XUQUBUX estar&aacute; parado por un tiempo m&aacute;s ya que la guitarra que uso para dicho proyecto est&aacute; en reparaci&oacute;n, pero por el momento estoy haciendo música que sonaba en mi cabeza mucho antes de entrar al mundo del metal extremo.</p>
+        <br>
+        <p>Son canciones caracter&iacute;sticas de un estilo m&aacute;s “moderno”, propios del New Metal y del Rock actual, este tipo de música est&aacute; dirigida a un público diferente, m&aacute;s general por lo que este contenido es m&aacute;s digerible adem&aacute;s de estar escrito mayormente en el idioma espa&ntilde;ol, de hecho tengo un LP que no ha visto la luz y del cual tengo construido completamente.</p>
+        <br>
+        <p>Estoy trabajando aún en el nombre para este proyecto, es un gran trabajo crear una imagen o concepto de algo, m&aacute;s laborioso aún es cambiar esa imagen para adaptarlo m&aacute;s al concepto y adquiera una mayor sentido.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- MUSICA -->
+<div id="music" class="separator">
+<h1 class="w3-wide w3-center w3-dark-red">MUSICA</h1>
+
+<div id="music01">
+<div class="w3-card-4 w3-border-bottom w3-border-dark-red w3-padding-16">
+<header><h2>Leviathan - The ancestral lands</h2></header>
+<div class="w3-row-padding">
+<div class="w3-third"><img src="img/music/a3698328177_16.jpg" style="width:100%" alt="Leviathan The Ancestral Lands" loading="lazy">
+  <p class="w3-center">Esc&uacute;chalo en:</p>
+  <div class="flex-container invert-me">
+    <div><a href="https://mikeleviathan.bandcamp.com" target="blank"><img src="img/b-bandcamp.svg" alt="bandcamp"></a></div>
+    <div><a href="https://soundcloud.com/mikeleviathan/sets/leviathan-the-ancestral-lands" target="blank"><img src="img/b-soundcloud.svg" alt="soundcloud"></a></div>
+  </div>
+</div>
+<div class="w3-twothird">
+<iframe loading="lazy" style="border:0;width:100%;height:208px;" src="https://bandcamp.com/EmbeddedPlayer/album=707233405/size=large/bgcol=000000/linkcol=9d6605/artwork=none/transparent=true/"></iframe>
+</div>
+</div>
+</div>
+</div>
+
+<div id="music02">
+<div class="w3-card-4 w3-border-bottom w3-border-dark-red w3-padding-16">
+<header><h2>UMBRA - Infaustus</h2></header>
+<div class="w3-row-padding">
+<div class="w3-third"><img src="img/music/a0175236747_16.jpg" style="width:100%" alt="UMBRA Infaustus" loading="lazy">
+  <p class="w3-center">Esc&uacute;chalo en:</p>
+  <div class="flex-container invert-me">
+    <div><a href="https://mikeleviathan.bandcamp.com" target="blank"><img src="img/b-bandcamp.svg" alt="bandcamp"></a></div>
+    <div><a href="https://soundcloud.com/mikeleviathan/sets/leviathan-the-ancestral-lands" target="blank"><img src="img/b-soundcloud.svg" alt="soundcloud"></a></div>
+  </div>
+</div>
+<div class="w3-twothird">
+<iframe loading="lazy" style="border:0;width:100%;height:208px;" src="https://bandcamp.com/EmbeddedPlayer/album=2821760199/size=large/bgcol=333333/linkcol=e32c14/artwork=none/transparent=true/"></iframe>
+</div>
+</div>
+</div>
+</div>
+
+<div id="music03">
+<div class="w3-card-4 w3-border-bottom w3-border-dark-red w3-padding-16">
+<header><h2>XUQUBUX - Burning cross</h2></header>
+<div class="w3-row-padding">
+<div class="w3-third"><img src="img/music/a0886614656_16.jpg" style="width:100%" alt="XUQUBUX Burning Cross" loading="lazy">
+  <p class="w3-center">Esc&uacute;chalo en:</p>
+  <div class="flex-container invert-me">
+    <div><a href="https://mikeleviathan.bandcamp.com/album/burning-cross" target="blank"><img src="img/b-bandcamp.svg" alt="bandcamp"></a></div>
+  </div>
+</div>
+<div class="w3-twothird">
+<iframe loading="lazy" style="border:0;width:100%;height:373px;" src="https://bandcamp.com/EmbeddedPlayer/album=3803902879/size=large/bgcol=333333/linkcol=e32c14/artwork=none/transparent=true/"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+  <!-- Section -->
+  <div id="video" class="separator">
+    <h1 class="w3-wide w3-center w3-dark-red">VIDEOS</h1>
+      <div class="flex-video tumbvid">
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=TRNBvXu-Tu4" target="blank">
+            <img alt="" src="img/video/47.jpg" alt="Brutal Riffs 1">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">Brutal Riffs 1</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=ZJV6LeNfsmg" target="blank">
+            <img alt="" src="img/video/48.jpg" alt="Brutal Riffs 2">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">Brutal Riffs 2</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=EI80eCW7zRo" target="blank">
+            <img alt="" src="img/video/31.jpg" alt="XUQUBUX - The Longinus's spear">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">XUQUBUX - The Longinus's spear</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=mvtgc8WrmDM" target="blank">
+            <img alt="" src="img/video/34.jpg" alt="XUQUBUX - The inverted crucifixion">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">XUQUBUX - The inverted crucifixion</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=C-DizSISziA" target="blank">
+            <img alt="" src="img/video/41.jpg" alt="XUQUBUX - Blood Sculpture(Demo)">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">XUQUBUX - Blood Sculpture Demo)</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=-hSYtEUfcPg" target="blank">
+            <img alt="" src="img/video/40.jpg" alt="XUQUBUX - Beelzebub (Demo)">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">XUQUBUX - Beelzebub (Demo)</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=0IL3bZuw3cQ" target="blank">
+            <img alt="" src="img/video/28.jpg" alt="XUQUBUX - Dark Atmosphere">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">XUQUBUX - Dark Atmosphere</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=Y9Db3NCzP24" target="blank">
+            <img alt="" src="img/video/32.jpg" alt="Umbra - Alone (Demo)">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">Umbra - Alone (Demo)</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+        <div class="w3-display-container">
+          <a href="https://www.youtube.com/watch?v=g9bUF0t-xss" target="blank">
+            <img alt="" src="img/video/33.jpg" alt="Umbra - Spectrum (Demo)">
+            <div class="w3-display-topmiddle w3-display-hover w3-large w3-animate-opacity">Umbra - Spectrum (Demo)</div>
+            <div class="w3-display-bottommiddle w3-display-hover w3-large w3-animate-opacity">Ver video</div>
+          </a>
+        </div>
+  
+      </div>
+    </div>
+    <!-- End Section -->
+  
+  
+  
+    <!-- Section -->
+    <div id="photo" class="separator">
+    <h1 class="w3-wide w3-center w3-dark-red">GALERIA</h1>
+      <span class="w3-padding-16"></span>
+      <div class="w3-row-padding">
+        <div class="w3-col s4">
+          <img alt="" src="img/small-dickmoshock.jpg" style="width:100%;cursor:pointer"
+          onclick="openModal();currentDiv(1)" class="w3-hover-shadow">
+        </div>
+        <div class="w3-col s4">
+          <img alt="" src="img/small-crosstitution.jpg" style="width:100%;cursor:pointer"
+          onclick="openModal();currentDiv(2)" class="w3-hover-shadow">
+        </div>
+  
+        <div class="w3-col s4">
+          <img alt="" src="img/small-leviathan.jpg" style="width:100%;cursor:pointer"
+          onclick="openModal();currentDiv(3)" class="w3-hover-shadow">
+        </div>
+  
+        <div class="w3-col s4">
+          <img alt="" src="img/small-skydome.jpg" style="width:100%;cursor:pointer"
+          onclick="openModal();currentDiv(4)" class="w3-hover-shadow">
+        </div>
+        <div class="w3-col s4">
+          <img alt="" src="img/small-umbra.jpg" style="width:100%;cursor:pointer"
+          onclick="openModal();currentDiv(5)" class="w3-hover-shadow">
+        </div>
+  
+        <div class="w3-col s4">
+          <img alt="" src="img/small-xuqubux.jpg" style="width:100%;cursor:pointer"
+          onclick="openModal();currentDiv(6)" class="w3-hover-shadow">
+        </div>
+      </div>
+  
+      <div id="myModal" class="w3-modal w3-black">
+       <span class="w3-display-left w3-btn" onclick="plusDivs(-1)"><</span>
+       <span class="w3-display-right w3-btn" onclick="plusDivs(1)">>></span></span></span>
+       <span class="w3-text-white w3-xxlarge w3-hover-text-grey w3-container w3-display-topright" onclick="closeModal()" style="cursor:pointer">×</span>
+       <div class="w3-modal-content">
+        <div class="w3-content w3-black w3-display-topmiddle" style="max-width:1200px;z-index: -999;margin-top: -70px;">
+         <img alt="" class="my-gallery my-image" src="img/about-crosstitution.jpg">
+         <img alt="" class="my-gallery my-image" src="img/about-dickmoshock.jpg">
+         <img alt="" class="my-gallery my-image" src="img/about-leviathan.jpg">
+         <img alt="" class="my-gallery my-image" src="img/about-skydome.jpg">
+         <img alt="" class="my-gallery my-image" src="img/about-umbra.jpg">
+         <img alt="" class="my-gallery my-image" src="img/about-xuqubux.jpg">
+        </div> <!-- End w3-content -->
+       </div> <!-- End modal content -->
+      </div> <!-- End modal -->
+  
+    </div>
+    <!-- End Section -->
+  
+  
+  
+  <!-- Section
+    <div id="more" class="separator">
+    <h1 class="w3-wide w3-center w3-dark-red">MORE</h1>
+  
+    </div>
+  End Section -->
+  
+  
+  
+  <!-- Footer -->
+  <div id="contact" class="separator">
+    <h1 class="w3-wide w3-center w3-dark-red">CONTACTAME</h1>
+      <p class="w3-opacity w3-center"><i>Cont&aacute;ctame en:</i></p>
+  
+      <div class="flex-container invert-me">
+        <div><a href="https://mikeleviathan.bandcamp.com" target="blank"><img alt="" src="img/b-bandcamp.svg" alt="bandcamp"></a></div>
+        <div><a href="https://soundcloud.com/mikeleviathan/sets/leviathan-the-ancestral-lands" target="blank"><img alt="" src="img/b-soundcloud.svg" alt="soundcloud"></a></div>
+        <div><a href="#" target="blank"><img alt="" src="img/b-spotify.svg" alt="spotify"></a></div>
+        <div><a href="#" target="blank"><img alt="" src="img/b-youtube.svg" alt="youtube"></a></div>
+        <div><a href="https://www.facebook.com/MikeLeviathan" target="blank"><img alt="" src="img/b-facebook.svg" alt="facebook"></a></div>
+        <div><a href="#" target="blank"><img alt="" src="img/b-instagram.svg" alt="instagram"></a></div>
+        <div><a href="#" target="blank"><img alt="" src="img/b-twitter.svg" alt="twitter"></a></div>
+        <div><a href="#" target="blank"><img alt="" src="img/b-vk.svg" alt="vk"></a></div>
+        <div><a href="#" target="blank"><img alt="" src="img/b-tiktok.svg" alt="tiktok"></a></div>
+        <div><a href="#" target="blank"><img alt="" src="img/b-kwai.svg" alt="kwai"></a></div>
+      </div>
+  
+    <p class="w3-medium w3-padding-8 w3-center">2021 | <a href="#top"><b style="color:#b0b0b0">MIKE <span style="color:#e0e0e0">LEVIATHAN</span></b></a></p>
+  </div>
+
+<script src="js/jquery.js"></script>
+<script src="js/fx.js"></script>
+<script>
+function myFunction(){var x=document.getElementById("navDemo");if(x.className.indexOf("w3-show")==-1){x.className+=" w3-show";}else{x.className=x.className.replace(" w3-show","");}}
+function openModal(){document.getElementById('myModal').style.display="block";}
+function closeModal(){document.getElementById('myModal').style.display="none";}
+var slideIndex=1;showDivs(slideIndex);
+function plusDivs(n){showDivs(slideIndex+=n);}
+function currentDiv(n){showDivs(slideIndex=n);}
+function showDivs(n){var i;var x=document.getElementsByClassName("my-gallery");if(n>x.length){slideIndex=1}if(n<1){slideIndex=x.length}for(i=0;i<x.length;i++){x[i].style.display="none";}x[slideIndex-1].style.display="block";}
+</script>
 </body>
 </html>
